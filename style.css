@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'amikosemibold';
+    src: url('fonts/Amiko-SemiBold-webfont.eot');
+    src: url('fonts/Amiko-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amiko-SemiBold-webfont.woff2') format('woff2'),
+         url('fonts/Amiko-SemiBold-webfont.woff') format('woff'),
+         url('fonts/Amiko-SemiBold-webfont.ttf') format('truetype'),
+         url('fonts/Amiko-SemiBold-webfont.svg#amikosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'amblelight';
+    src: url('fonts/Amble-Light-webfont.eot');
+    src: url('fonts/Amble-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Amble-Light-webfont.woff2') format('woff2'),
+         url('fonts/Amble-Light-webfont.woff') format('woff'),
+         url('fonts/Amble-Light-webfont.ttf') format('truetype'),
+         url('fonts/Amble-Light-webfont.svg#amblelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+}
+
+.conteneur
+{
+    display: flex;
+    max-width: 1200px;
+
+    
+}
+  
+main
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 5%;
+} 
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #FECA07;
+    min-height: 100vh;
+    
+    
+}
+
+span {
+    color: #FECA07;
+}
+
+.prenom {
+    font-family: 'amikosemibold';
+}
+
+#photo
+{
+    text-align: center;
+}
+
+img
+{
+    border-radius: 50%;
+    height: 180px;
+    margin: 10%;
+}
+
+h2
+{
+    font-family: 'amikosemibold';
+}
+
+.bordertitre {
+    border-bottom: 0.1em solid#FECA07;
+    font-family: 'amikosemibold';
+}
+
+#border
+{
+    background-color: #FECA07;
+    width: 4.5em;
+    height: 0.1em;
+    margin-top: -2.5%;
+}
+#contact {
+    background-color:#404040;
+    text-align: center;
+    color: #FECA07;
+
+}
+
+#loisirs {
+    background-color:#404040;
+    text-align: center;
+    color: #FECA07;
+
+}
+
+#apropos {
+    background-color:#404040;
+    text-align: center;
+    color: #FECA07;
+}
+
+article
+{
+    font-family: 'amblelight';
+    font-size: 85%;
+    width: 50%;
+    padding: 2%;
+}
+
+#infos
+{
+    margin-left: 10%;
+}
+
+#texteapropos {  
+    margin-left: 10%;
+    margin-right: auto;
+    width: 12em;
+    text-align: justify;
+    
+}
+
+.formation
+{
+    display: flex;
+
+}
+
+.formation > p
+{
+    width: 30%;
+}
+
+.iconelast
+{
+color: #FECA07;
+display: flex;
+margin-top: 2%;
+margin-right: 2%;
+font-size: 90%;
+}
+
+.iconerempli
+{
+    color: #FECA07;
+    display: flex;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-size: 60%;
+}
+
+.expprosec
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.exppro
+{
+    display: flex;
+}
+
+.exppro p
+{
+    width: 30%;
+}
+
+/* Recommandations */
+
+.recommandationsarticle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+/* Icone FontAwesome */
+
+.loisirsflex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.icone 
+{
+    font-size: 2.5em;
+    border: solid black;
+    border-radius: 50%;
+    height: 1.5em;
+    width: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.iconeconteneur
+{
+  margin-right: 2%;
+  color: #FECA07;
+ 
+}
+
+/* responsive */
+
+@media all and (max-width: 1024px) {
+
+    .conteneur
+    {
+        display: block;
+    }
+
+    aside
+    {
+         width: 100%;
+    }
+
+}
