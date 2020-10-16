@@ -55,6 +55,15 @@ aside
     
 }
 
+header 
+{
+    margin-bottom: 16%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
 span {
     color: #FECA07;
 }
@@ -73,11 +82,13 @@ img
     border-radius: 50%;
     height: 180px;
     margin: 10%;
+    border: 2px solid rgba(0,0,0,0.15)
 }
 
 h2
 {
     font-family: 'amikosemibold';
+    margin-top: 0;
 }
 
 .bordertitre {
