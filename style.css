@@ -32,13 +32,13 @@ body {
 {
     display: flex;
     max-width: 1200px;
-    width: 90%;
+    width: 95%;
     margin: auto;
-
+    
     
 }
   
-main
+.main
 {
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ article
 
 #texteapropos {  
     margin-left: 10%;
-    margin-right: auto;
+    margin-right: 10%;
     width: 12em;
     text-align: justify;
     
