@@ -134,14 +134,19 @@ article
 }
 
 #infos
+
 {
-    margin-left: 10%;
+    font-family: 'amblelight';
+    font-size: 85%;
+    width: 96%;
+    padding: 2%;
+    text-align: center;
 }
 
 #texteapropos {  
     margin-left: 10%;
     margin-right: 10%;
-    width: 12em;
+    width: 80%;
     text-align: justify;
     
 }
